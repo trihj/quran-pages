@@ -1,0 +1,7 @@
+#cara execute yg sukses:
+docker-compose up -d
+docker-compose run gen perl /app/script/generate.pl --output ./output/ --width 1300 --pages 50
+docker-compose run gen perl /app/script/generate.pl --output ./output/ --width 1300
+docker-compose down
+
+https://github.com/quran/quran.com-images
